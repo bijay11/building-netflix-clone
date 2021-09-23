@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
 import { HeaderContainer } from "../containers/header";
-import { FooterCointainer } from "../containers/footer";
+import { FooterContainer } from "../containers/footer";
 import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
 import { FirebaseContext } from "../context/firebase";
@@ -73,7 +73,7 @@ export default function Signup() {
           </Form.TextSmall>
         </Form>
       </HeaderContainer>
-      <FooterCointainer />
+      <FooterContainer />
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Feature, OptForm } from "../components";
 import { FaqsContainer } from "../containers/faqs";
 import { JumbotronContainer } from "../containers/jumbotron";
-import { FooterCointainer } from "../containers/footer";
+import { FooterContainer } from "../containers/footer";
 import { HeaderContainer } from "../containers/header";
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
       </HeaderContainer>
       <JumbotronContainer />
       <FaqsContainer />
-      <FooterCointainer />
+      <FooterContainer />
     </>
   );
 }
